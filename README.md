@@ -1,7 +1,7 @@
 AB Microfinance Travel Site Interface Design
 This Project was developed using ReactJS
 Author: Babatunde Ganiyu
-Email: barackhalogen@gmail.com
+Email: babatunde.ganiyyu@gmail.com
 
 
 # Getting Started with Create React App

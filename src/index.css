@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Volkhov:wght@400;700&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.head {
+  font-family: 'Volkhov', serif;
+}
+
+.bodyComment:hover+.myComment {
+  display: block;
+}
+
+.comment-box {
+  right: 0;
+  top: 100%;
+  transform: translateY(-10px);
+  transition: transform 0.2s ease-in-out;
+  width: 300px;
+  /* Adjust the width as needed */
+}
+
+.comment-box textarea {
+  resize: none;
+}
+
+body {
+  background-color: #fff;
+  color: #181E4B;
+}
+
+body,
+html {
+  overflow-x: clip;
+}
+
+.space_mono {
+  font-family: 'Space Mono', monospace;
+}
+
+
+
+
+
+
+
+
+.search-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: none;
+  color: #fff;
+}
+
+.search-input::placeholder {
+  color: #A3B2C8;
+}
+
+.glass_morphism {
+  background: linear-gradient(116.39deg, #1B1A1E 1.42%, rgba(202, 197, 211, 0) 98.81%);
+  backdrop-filter: blur(20px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 12px;
+}
+
+.trx {
+  transform: rotate(-15deg);
+}
+
+.blue-glassmorphism {
+  background: rgb(39, 51, 89, 0.4);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.cat:hover {
+  border: 1px;
+}
+
+.bg_gradient {
+  position: absolute;
+  width: 980.97px;
+  height: 1194.29px;
+  background: #2C2047;
+  filter: blur(250px);
+  transform: rotate(-12.15deg);
+}
